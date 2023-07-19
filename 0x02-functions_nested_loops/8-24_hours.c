@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Prints every minute of the day of Jack Bauer
- * Description: Start from '00:00' to '23:59'
+ * Description: Start from 00:00 to 23:59
  */
 void jack_bauer(void)
 {
@@ -10,7 +10,7 @@ void jack_bauer(void)
 
 	for (hour = 0; hour < 24; hour++)
 	{
-		for (minute = 0; minute < 24; hour++)
+		for (minute = 0; minute < 60; minute++)
 		{
 			_putchar('0' + hour / 10);
 			_putchar('0' + hour % 10);
