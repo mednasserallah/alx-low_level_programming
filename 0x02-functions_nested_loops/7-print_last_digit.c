@@ -2,16 +2,16 @@
 /**
  * print_last_digit - Print last digit of a number
  *
- * @n: Type int and @x type int
+ * @n: Type int n and @b type int b
  *
  * Return: the value of the last digit
  */
 
 int print_last_digit(int n)
 {
-	int n;
+	int x;
 
-	if (y < 0)
+	if (n < 0)
 	{
 		x = -1 * (n % 10);
 		_putchar(x + '0');
