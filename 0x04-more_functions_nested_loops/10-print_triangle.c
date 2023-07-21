@@ -5,7 +5,7 @@
  *
  * @size: variable
  *
- * Return: Always
+ * Return: Always 0.
  */
 
 void print_triangle(int size)
